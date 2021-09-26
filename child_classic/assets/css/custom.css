@@ -1,0 +1,134 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+#header {
+    background: #ffffff
+}
+
+.block-social {
+    background: rgb(255, 255, 255)
+}
+
+.block-social ul li {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #2425e8;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: .125rem;
+    cursor: pointer;
+}
+
+
+#header .header-top {
+    padding-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+}
+
+#header .header-top .position-static {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#header .header-top>.container {
+    position: relative;
+    flex-basis: 100%;
+    bottom: 65px;
+
+}
+
+.search-widget {
+    min-width: 400px;
+}
+
+
+#wrapper {
+   background: #ffffff; 
+   box-shadow: none; 
+    
+}
+
+
+.opis{
+    border-color: #2425e8;
+}
+
+#product #content {
+    position: relative;
+    max-width: 85vw;
+    margin: 0 auto;
+
+@media (max-width: 767px) {
+
+    #header .header-nav {
+        background: #fff;
+        margin-bottom: .625rem;
+        color: #232323;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #header .header-top {
+        height: 69px;
+    }
+
+    .header-top .search-widget form input[type="text"] {
+        width: 75vw;
+    }
+
+
+
+
+
+    #header .header-nav .user-info {
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .contener-mobile1 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contener-mobile1 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+    }
+
+
+   
+    #hidden-md-up {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+
+    #_mobile_user_info {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+
+
+
+}
